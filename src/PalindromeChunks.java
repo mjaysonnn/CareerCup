@@ -12,7 +12,7 @@ public class PalindromeChunks {  //time O(n)
                 right = "";
             }
             ++i;
-            --j;
+            --j;   
         }
         if ( (!left.equals("") && !right.equals("")) || i == j) // middle chunk left over
             ++chunkCount;
